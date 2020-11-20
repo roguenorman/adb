@@ -9,7 +9,7 @@ Create a file named config in /config with the following parameters:
 timer=15 
 
 #address:port of each device to reconnect to  
-ipaddr=(192.168.1.20:5555 192.168.1.21:5555) 
+ipaddr=(192.168.20.39:5555 192.168.20.36:5555) 
 
 
 ```
