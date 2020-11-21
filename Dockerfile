@@ -5,5 +5,5 @@ COPY adb-start.sh /usr/local/bin/adb-start.sh
 COPY adb-auto-reconnect.sh /usr/local/bin/adb-auto-reconnect.sh
 RUN apk add --no-cache bash
 EXPOSE 5037
-CMD ["/usr/local/bin/adb-start.sh"]
+CMD ["bash","/usr/local/bin/adb-start.sh"]
 VOLUME ["/config"]
