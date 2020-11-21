@@ -1,4 +1,4 @@
-FROM sorccu/adb/
+FROM /sorccu/adb/
 RUN mkdir /config
 COPY config /config
 COPY adb-start.sh /usr/local/bin/adb-start.sh
